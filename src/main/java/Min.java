@@ -17,14 +17,14 @@ public class Min
      * @throws ClassCastException if list elements are not mutually comparable
      * @throws IllegalArgumentException if list is empty
      */
-    public static <T extends Comparable<? super T>> T min (List<? extends T> list)
+    public static <T extends Comparable<? super T>> T min (List<?> list)
     {
         if (list.size() == 0)
         {
             throw new IllegalArgumentException ("Min.min");
         }
 
-        Iterator<? extends T> itr = list.iterator();
+        Iterator<? extends T> itr = (Iterator<? extends T>) list.iterator();
         T result = itr.next();
 
         if (result == null) throw new NullPointerException ("Min.min");

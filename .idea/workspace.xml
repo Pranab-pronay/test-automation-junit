@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="384a475c-c331-40c2-8531-6d55a8179052" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Min.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MinDataDrivenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Min.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Min.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MinTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +36,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.MinDataDrivenTest.executor": "Run",
+    "JUnit.MinDataDrivenTest.testMin.executor": "Run",
     "JUnit.MinTest.executor": "Run",
     "JUnit.MinTest.testForNullElement.executor": "Run",
     "JUnit.MinTest.testForNullList.executor": "Run",
@@ -59,21 +58,30 @@
   }
 }]]></component>
   <component name="RunManager" selected="JUnit.MinTest">
-    <configuration name="MinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MinDataDrivenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Min" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MinTest" />
+      <option name="MAIN_CLASS_NAME" value="MinDataDrivenTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinTest.testForNullElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MinDataDrivenTest.testMin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Min" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MinDataDrivenTest" />
+      <option name="METHOD_NAME" value="testMin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Min" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MinTest" />
-      <option name="METHOD_NAME" value="testForNullElement" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,9 +109,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MinTest" />
+        <item itemvalue="JUnit.MinDataDrivenTest" />
+        <item itemvalue="JUnit.MinDataDrivenTest.testMin" />
         <item itemvalue="JUnit.MinTest.testMin" />
         <item itemvalue="JUnit.MinTest.testForNullList" />
-        <item itemvalue="JUnit.MinTest.testForNullElement" />
       </list>
     </recent_temporary>
   </component>
@@ -115,7 +124,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709758503482</updated>
-      <workItem from="1709758504670" duration="5798000" />
+      <workItem from="1709758504670" duration="9586000" />
     </task>
     <servers />
   </component>
